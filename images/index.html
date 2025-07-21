@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday!</title>
+  <style>
+    body {
+      background-color:pink;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+
+    .bounce {
+      font-size: 40px;
+      color: #ff1493;
+      animation: bounce 1s infinite, glow 2s infinite alternate;
+      text-shadow: 2px 2px #ffcccc;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-15px); }
+    }
+
+    @keyframes glow {
+      0% { text-shadow: 0 0 10px #ff69b4, 0 0 20px #ff1493; }
+      100% { text-shadow: 0 0 20px #ff69b4, 0 0 30px #ff1493; }
+    }
+
+    img {
+      width: 300px;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    p {
+      font-size: 20px;
+      color: #4b0082;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 class="bounce">🎉 Happy Birthday bindu 🎂</h1>
+  <img src="images/birthday_photo.jpg" alt="Birthday Image">
+  <p>you are such a wonderful person and i wish you happiest birthday stay safe and be happy forever💕💙🎉</p>
+
+</body>
+</html>
